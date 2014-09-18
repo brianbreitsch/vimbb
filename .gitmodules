@@ -1,0 +1,3 @@
+[submodule "vim/256840"]
+	path = vim/256840
+	url = https://gist.github.com/256840.git

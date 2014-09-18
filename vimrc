@@ -15,8 +15,9 @@ set pastetoggle=<C-p>
 imap lkj <esc>
 set nu
 syntax on
-set colorcolumn=80
-highlight ColorColumn ctermbg=14
+colorscheme kolor
+" set colorcolumn=80
+" highlight ColorColumn ctermbg=14
 " set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set autoindent    " always set autoindenting on
@@ -34,6 +35,9 @@ set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 set expandtab
 map <C-n> :NERDTreeToggle<CR>
+
+au FileType javascript setl sw=2 sts=2 et
+au FileType html setl sw=2 sts=2 et
 
 " === ErgoVim key mappings ===
 
