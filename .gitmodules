@@ -1,3 +1,15 @@
-[submodule "vim/256840"]
-	path = vim/256840
-	url = https://gist.github.com/256840.git
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/kolor"]
+	path = vim/bundle/kolor
+	url = https://github.com/zeis/vim-kolor.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim/bundle/sensible"]
+	path = vim/bundle/sensible
+	url = https://github.com/tpope/vim-sensible.git

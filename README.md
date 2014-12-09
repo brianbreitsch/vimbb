@@ -1,7 +1,7 @@
 vimbb
 =====
 
-Brian's awesome vim setup
+awesome vim setup
 
 Installation
 ============
