@@ -16,8 +16,11 @@ imap lkj <esc>
 set nu
 syntax on
 colorscheme kolor
-set colorcolumn=80
-highlight ColorColumn ctermbg=14
+set textwidth=79
+set nowrap
+noremap <F3> Autoformat<CR><CR>
+" set colorcolumn=80
+" highlight ColorColumn ctermbg=14
 " set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set autoindent    " always set autoindenting on
