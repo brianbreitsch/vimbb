@@ -13,6 +13,3 @@
 [submodule "vim/bundle/sensible"]
 	path = vim/bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
-[submodule "vim/bundle/autoformat"]
-	path = vim/bundle/autoformat
-	url = https://github.com/Chiel92/vim-autoformat.git
