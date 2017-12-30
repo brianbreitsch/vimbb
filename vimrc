@@ -9,14 +9,14 @@ set nocompatible	" Use Vim defaults instead of 100% vi compatibility
 set backspace=2		" more powerful backspacing
 set nobackup
 set noswapfile
-set mouse=a
+" set mouse=a
 set pastetoggle=<C-p>
 " Custom 'exit insert mode' key sequence
 imap lkj <esc>
 set nu
 syntax on
-colorscheme kolor
-set textwidth=79
+colorscheme default
+" set textwidth=79
 set nowrap
 noremap <F3> Autoformat<CR><CR>
 " set colorcolumn=80
